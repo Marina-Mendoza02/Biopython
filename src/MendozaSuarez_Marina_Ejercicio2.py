@@ -19,8 +19,3 @@ class Gen:
         """Devuelve un resumen breve con la info del gen"""
         return f"Gen: {self.nombre} ({self.especie if self.especie else 'Especie desconocida'}), {self.longitud()} bases."
     
-
-# Ejemplo
-gen1 = Gen("lacZ", "ATGACCATGATTACGCCAAGCTT", "Escherichia coli")
-print(gen1.longitud())
-print(gen1.resumen())
